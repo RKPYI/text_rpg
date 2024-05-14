@@ -5,12 +5,13 @@ body {
 #text {
     background-color: black;
     color: white;
-    padding: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
 }
 
 #game {
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 100%;
+    max-height: auto;
     background-color: silver;
     color: white;
     margin: 0 auto;
@@ -25,6 +26,7 @@ body {
 #stats {
     border: 1px solid black;
     color: black;
+    font-size: 14px;
     padding: 5px;
 }
 
@@ -38,6 +40,11 @@ body {
 
 .stat {
     padding-right: 10px;
+}
+
+#controls button {
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
 #controls > #button_1 {
@@ -54,12 +61,15 @@ body {
 
 #controls > #button_1:hover {
     background-color: rgb(40, 40, 255);
+    opacity: 0.8;
 }
 
 #controls > #button_2:hover {
     background-color: rgb(255, 255, 40);
+    opacity: 0.8;
 }
 
 #controls > #button_3:hover {
     background-color: rgb(255, 40, 40);
+    opacity: 0.8;
 }
