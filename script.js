@@ -7,6 +7,7 @@ const buttons = [-1, document.querySelector("#button_1"), document.querySelector
 const text = document.querySelector("#text");
 const xpText = document.querySelector("#xpText");
 const hpText = document.querySelector("#hpText");
+const maxhpText = document.querySelector("#maxhpText");
 const coinText = document.querySelector("#coinText");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterHP = document.querySelector("#monsterHP");
@@ -114,8 +115,8 @@ const monsters = [
     },
 
     {
-        name : "Demon Lord",
-        hp : 400,
+        name : "Raja Iblis",
+        hp : 1000000,
         damage : 40,
         accuracy : 90
     }
@@ -201,6 +202,7 @@ function buyLifeCrystal() {
 
         coinText.innerText = coin;
         hpText.innerText = hp;
+        maxhpText.innerText = maxhp;
 
         text.innerText = "Kamu berhasil meningkatkan HP mu ke " + hp + ". Jika tidak ada yang dibutuhkan lagi, silahkan kembali ke Pasar."
 

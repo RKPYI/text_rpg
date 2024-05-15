@@ -59,6 +59,10 @@ body {
     background-color: lightcoral;
 }
 
+#controls > #button_4 {
+    background-color: aquamarine;
+}
+
 #controls > #button_1:hover {
     background-color: rgb(40, 40, 255);
     opacity: 0.8;
@@ -71,5 +75,10 @@ body {
 
 #controls > #button_3:hover {
     background-color: rgb(255, 40, 40);
+    opacity: 0.8;
+}
+
+#controls > #button_4:hover {
+    background-color: rgb(20, 255, 125);
     opacity: 0.8;
 }
